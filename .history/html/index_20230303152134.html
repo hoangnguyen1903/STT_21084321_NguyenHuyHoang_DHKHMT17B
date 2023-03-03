@@ -237,38 +237,10 @@
         border: 2px solid #993738;
         display: inline-block;
         margin-bottom: 5px;
-        transition: all 0.2s;
-        cursor: pointer;
       }
 
       #bai9 > ul > li:hover {
-        background-color: #241b1b6e;
-      }
-
-      #bai10 {
-        position: relative;
-        animation-name: scroll;
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-direction: alternate;
-      }
-
-      #bai10 > .animated {
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        left: 0px;
-        top: 50%;
-        top: 0;
-        background: #ffcc00;
-      }
-
-      @keyframes scroll {
-        to {
-          left: 100%;
-          transform: rotate(180deg);
-        }
+        border-style: double;
       }
     </style>
   </head>
@@ -749,11 +721,6 @@
         <li>Quora</li>
         <li>tripadvisor</li>
       </ul>
-    </div>
-    <hr />
-    <h2><b>Bài 10</b></h2>
-    <div id="bai10">
-      <div class="animated"></div>
     </div>
   </body>
 </html>
